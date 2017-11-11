@@ -9,13 +9,15 @@ http://blog.csdn.net/pku_coder/article/details/77870697
 
 ## sublime python build system
 ## name:python3_gluon
+
+```
 {
     "cmd": ["/home/yl/miniconda3/envs/gluon/bin/python", "-u", "$file"],
     "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
     "selector": "source.python",
     "env": {"LANG": "en_US.UTF-8"}
 }
-
+```
 
 ## install miniconda
 download https://conda.io/miniconda.html
