@@ -57,6 +57,11 @@ source activate gluon # 注意Windows下不需要 source
 pip install https://github.com/mli/notedown/tarball/master
 jupyter notebook --NotebookApp.contents_manager_class='notedown.NotedownContentsManager'
 ```
+### 安装open-cv
+```
+conda install -c https://conda.binstar.org/menpo opencv
+
+```
 
 【可选项】默认开启notedown插件
 
