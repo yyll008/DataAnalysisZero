@@ -63,6 +63,8 @@ conda install -c https://conda.binstar.org/menpo opencv
 
 conda install -c conda-forge xgboost 
 
+conda install -c conda-forge lightgbm 
+
 ```
 
 【可选项】默认开启notedown插件
