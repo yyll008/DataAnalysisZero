@@ -65,6 +65,8 @@ conda install -c conda-forge xgboost
 
 conda install -c conda-forge lightgbm 
 
+conda install -c soumith pytorch 
+
 ```
 
 【可选项】默认开启notedown插件
