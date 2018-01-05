@@ -69,6 +69,9 @@ conda install -c conda-forge lightgbm
 
 conda install -c anaconda pytorch-gpu
 
+conda install pytorch cuda80 -c soumith
+
+
 conda install -c anaconda tensorflow-gpu
 
 ```
