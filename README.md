@@ -65,7 +65,7 @@ conda install -c conda-forge xgboost
 
 conda install -c conda-forge lightgbm 
 
-conda install -c soumith pytorch 
+conda install -c anaconda pytorch-gpu
 
 conda install -c anaconda tensorflow-gpu
 
