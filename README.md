@@ -59,6 +59,8 @@ jupyter notebook --NotebookApp.contents_manager_class='notedown.NotedownContents
 ```
 ### 安装open-cv xgboost tensorflow-gpu
 ```
+conda install -c menpo opencv3 
+
 conda install -c https://conda.binstar.org/menpo opencv
 
 conda install -c conda-forge xgboost 
