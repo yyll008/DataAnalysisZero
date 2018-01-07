@@ -71,6 +71,8 @@ conda install -c anaconda pytorch-gpu
 
 conda install pytorch cuda80 -c soumith
 
+conda install -c jjh_cio_testing/label/in_defaults pytorch-gpu
+
 
 conda install -c anaconda tensorflow-gpu
 
