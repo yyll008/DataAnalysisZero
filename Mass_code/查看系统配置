@@ -1,0 +1,9 @@
+1 查看硬盘
+ ds -h
+
+2 查看GPU
+ lspci | grep -i vga  
+ 
+3 查看内存
+ free
+ 

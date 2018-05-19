@@ -1,0 +1,7 @@
+import sqlanydb
+conn = sqlanydb.connect(uid='ags_user', pwd='sagem5m5', eng='agsmono', dbn='agsmono' )
+curs = conn.cursor()
+curs.execute("select 'Hello, world!'")
+print("SQL Anywhere says: %s" % curs.fetchone())
+curs.close()
+conn.close()

@@ -1,0 +1,19 @@
+python3.6程序的执行文件：/usr/local/bin/python3.6
+python3.6应用程序目录：/usr/local/lib/python3.6
+pip3的执行文件：/usr/local/bin/pip3.6
+pyenv3的执行文件：/usr/local/bin/pyenv-3.6
+ 
+ 安装python3.6可能使用的依赖
+# yum install openssl-devel bzip2-devel expat-devel gdbm-devel readline-devel sqlite-devel
+
+下载python3.6编译安装
+到python官网下载https://www.python.org
+下载最新版源码，使用make altinstall，如果使用make install，在系统中将会有两个不同版本的Python在/usr/bin/目录中。这将会导致很多问题，而且不好处理。
+# wgethttps://www.python.org/ftp/python/3.6.0/Python-3.6.0.tgz
+# tar -xzvf Python-3.6.0.tgz -C  /tmp
+# cd  /tmp/Python-3.6.0/
+把Python3.6安装到 /usr/local 目录
+# ./configure --prefix=/usr/local
+# make
+# make altinstall
+
